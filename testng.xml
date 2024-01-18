@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="E Bank Application">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testCases.TC_login_001"/>
+            <class name="testCases.TC_Login_DDT_002"/>
+<!--            <class name="testCases.TC_AddNewCustomer_003"/>-->
+        </classes>
+    </test>
+</suite>
